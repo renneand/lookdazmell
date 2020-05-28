@@ -1,0 +1,35 @@
+body {
+
+    width: 75%;
+    align-items: center;
+    background-image: url("img/site/bg-body.jpg");
+    
+   }
+
+.sitefooter {
+    background-color: #ffa8a6;
+  }
+
+  .sitebody {
+    width: 75%;
+
+    
+    
+  }
+
+  .cardlook {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    
+
+  }
+
+  .formcontato {
+    width: 25%;
+    
+  }
+
+  .bg-index{
+    width: 100%;
+   
+  }

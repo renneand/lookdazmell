@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Symfony\Component\Routing\Route as RoutingRoute;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,17 @@ Route::get('/', function () {
 });
 
 
+
+Route::get('/sobre', function() {
+    return view('sobre');
+});
+
+
+Route::get('/contato', function() {
+    return view('contato');
+});
+
+
+Route::get('/looks', function() {
+    return view('looks');
+});
