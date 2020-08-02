@@ -5,6 +5,10 @@
       <meta name="csrf-token" content="{{csrf_token()}}">
       
       <nav class="navbar navbar-light navbar-expand-md mb-4" style="background-color: #ffa8a6;">
+       
+        <a href="/"><img src="img/site/lookdazmell.png" class="logoheader"></a>
+        
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -12,7 +16,7 @@
             </li>
             <li class="nav-item">
             
-              <a class="nav-link" href="/looks">Looks</a>
+              <a class="nav-link" href="/looks">Categorias</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/sobre">Sobre</a>
@@ -37,10 +41,12 @@
         <div class="col-sm">
           <ul>
             <div> Entre em Contato!</div>
-              <a href="https://www.instagram.com/lookdazmell"><img src="/img/social/insta.png" width=30 height=30></a>
-              <a href="https://api.whatsapp.com/send?phone=5585984244115"><img src="/img/social/whats.svg" width=50 height=30></a>
-              <a href="#"><img src="/img/social/face.svg" width=47 height=27></a>
-              <a href="sobre"><img src="/img/social/sobre.svg" width=47 height=27></a>
+              <a href="https://api.whatsapp.com/send?phone=5585984244115"><img src="/img/social/whats.png" class="footer-icon-social"></a>
+              <a href="#"><img src="/img/social/face.png" class="footer-icon-social"></a>
+              <a href="#"><img src="/img/social/twit.png" class="footer-icon-social"></a>
+              <a href="#"><img src="/img/social/pint.png" class="footer-icon-social"></a></br>
+              <a href="https://www.instagram.com/lookdazmell"><img src="/img/social/insta.png" class="footer-icon-social"></a>
+              <a href="#"><img src="/img/social/yout.png" class="footer-icon-social-youtube"></a>
           </ul>
         </div>
         <div class="col-sm">
@@ -58,3 +64,4 @@
       </footer>
 
 </html>
+

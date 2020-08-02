@@ -1,26 +1,30 @@
 body {
 
-    width: 75%;
-    align-items: center;
-    background-image: url("img/site/bg-body.jpg");
     
+     background-image: url("img/site/bg-body.jpg");
+
+     
    }
+
+.card-deck{
+
+    margin: auto;
+    width: 80%;
+   
+   
+  }
+
+
 
 .sitefooter {
     background-color: #ffa8a6;
   }
 
-  .sitebody {
-    width: 75%;
-
-    
-    
-  }
 
   .cardlook {
       margin-top: 5px;
-      margin-bottom: 5px;
-    
+      margin-bottom: 15px;
+
 
   }
 
@@ -33,3 +37,39 @@ body {
     width: 100%;
    
   }
+
+  .footer-icon-social{
+    margin-top: 6px;
+    margin-left: 8px;
+    width: 30px;
+    height: 30px;
+    align-items: flex-start;
+    
+  }
+
+
+  .footer-icon-social-youtube{
+    width:40px;
+    height:35px;
+    margin-top: 6px;
+    margin-left: 6px;
+    align-items: flex-start;
+    
+  }
+
+
+  .bdfooter{
+    align-items: center;
+    margin-top: auto  ;
+    
+  }
+
+  .logoheader{
+    height: 25px;
+    margin-right: 35px;
+
+  }
+
+  
+
+  
