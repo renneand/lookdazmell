@@ -4,6 +4,10 @@
 
     <div class="divbody">
         <div class="card-deck cardlook">
+
+            @foreach
+                
+            @endforeach
             <div class="card">
             <img src="img/look/1.jpg" class="card-img-top" alt="...">
             <div class="card-body">

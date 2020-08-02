@@ -5,10 +5,10 @@
       <meta name="csrf-token" content="{{csrf_token()}}">
       
       <nav class="navbar navbar-light navbar-expand-md mb-4" style="background-color: #ffa8a6;">
-       
+        //Imagem Look daz Mell
         <a href="/"><img src="img/site/lookdazmell.png" class="logoheader"></a>
         
-
+        //Navbar Topo
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
